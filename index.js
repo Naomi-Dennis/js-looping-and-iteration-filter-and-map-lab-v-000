@@ -1,9 +1,9 @@
 // Code your solution here:
-function driversWithRevenueOver(){
-
+function driversWithRevenueOver(list, revenue){
+  list.filter( (ele) => { return ele['revenue'] > revenue})
 }
 function driverNamesWithRevenueOver(){
-  
+
 }
 function exactMatch(){
 
