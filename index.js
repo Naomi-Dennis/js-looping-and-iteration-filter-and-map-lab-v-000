@@ -15,6 +15,6 @@ undefined 'sally'
 undefined undefined
 */
 
-function exactMatchToList(){
-
+function exactMatchToList(list, attribute){
+   return exactMatch(list, attribute).map( (ele) => { return ele['name']})
 }
