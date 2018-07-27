@@ -1,6 +1,6 @@
 // Code your solution here:
 function driversWithRevenueOver(list, revenue){
-  list.filter( (ele) => { console.log(ele['revenue'], revenue) return ele['revenue'] > revenue})
+  list.filter( (ele) => { console.log(ele['revenue'], revenue); return ele['revenue'] > revenue})
 }
 function driverNamesWithRevenueOver(list, revenue){
   driversWithRevenueOver(list, revenue).map( (ele) => { return ele['name']} )
