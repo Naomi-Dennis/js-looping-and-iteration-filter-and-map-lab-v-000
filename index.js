@@ -6,7 +6,7 @@ function driverNamesWithRevenueOver(list, revenue){
   return driversWithRevenueOver(list, revenue).map( (ele) => { return ele['name']} )
 }
 function exactMatch(list, attribute){
-  list.filter( (ele) => { return ele ? ele['name'] === attribute : ele['revenue'] == attribute })
+  return list.filter( (ele) => { return ele ? ele['name'] === attribute : ele['revenue'] == attribute })
 }
 
 function exactMatchToList(){
